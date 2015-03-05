@@ -1,0 +1,99 @@
+body {
+	background-image: url(../images/stormy-weather.jpg);
+	background-position: center;
+	background-size: cover;
+	margin: 0;
+}
+
+p {
+	background: rgba(0,0,0,0.5);
+	border: 5px double white;
+	color: white;
+	margin: 5% 65% 10% 15%;
+	padding: 2%;
+	font-size: large;
+	font-family: "Times New Roman", sans-serif;
+}
+
+h1 {
+	margin-top: 0;
+	font-size: 65px;
+	font-family: "Times New Roman", sans-serif;
+	color: white;
+}
+
+div#header {
+	margin-top: 0;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.fa.fa-desktop {
+	transition: .5s;
+	margin: 10px;
+	float: right;
+	font-size: 65px;
+	color: white;
+	opacity: 0.5;
+}
+
+.fa.fa-mobile {
+	transition: .5s;
+	margin: 10px;
+	float: right;
+	font-size: 65px;
+	color: white;
+	opacity: 0.5;
+}
+
+.fa.fa-tablet {
+	transition: .5s;
+	margin: 10px;
+	float: right;
+	font-size: 65px;
+	color: white;
+	opacity: 0.5;
+}
+
+.fa.fa-desktop:hover {
+	opacity: 1;
+}
+
+.fa.fa-mobile:hover {
+	opacity: 1;
+}
+
+.fa.fa-tablet:hover {
+	opacity: 1;
+}
+
+@media screen and (min-width: 800px) {
+	.fa.fa-desktop {
+		opacity: 1;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.fa.fa-tablet {
+		opacity: 1;
+		float: left;
+	}
+	.fa.fa-desktop {
+		float: left;
+	}
+	.fa.fa-mobile {
+		float: left;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.fa.fa-mobile {
+		opacity: 1;
+		float: left;
+	}
+	.fa.fa-desktop {
+		 float: left;
+	 }
+	.fa.fa-tablet {
+		float: left;
+	}
+}
